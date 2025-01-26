@@ -1,0 +1,103 @@
+:root { 
+    --colorbackround2: 
+    rgb(229, 219, 194);
+  --colorbackround1: 
+  rgba(117, 87, 52);
+  --colortext2: 
+  rgb(80, 60, 35);
+  --colortext1: 
+  rgb(250, 245, 230) ;
+  }
+body {
+    background-image: url("../img/patates.jpg"); 
+    background-size: cover; 
+    background-attachment: fixed; 
+    background-color: var(--colorbackround1); 
+}
+.social-media{
+    display: flex;
+    
+}
+
+.social-icon{
+    display: block;
+    width: 18px;
+    aspect-ratio: 3/3;
+    margin-right: 5px;
+}
+
+ p{
+    margin-bottom: 0px;
+    margin: 0px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+} 
+h1,h2,h3,h4,h5,h6{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    
+}
+
+#photo-profil{
+    margin-left: 20px;
+    width: 300px;
+    border: solid 5px;
+    border-color: var(--colortext1);
+    transition: transform 0.3s ease, background-color 0.3s ease;
+}
+
+.contenu{
+    color: var(--colortext1);
+    width: 400px;
+    margin-left: 20px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    transition: transform 0.3s ease, background-color 0.3s ease;
+    
+
+}
+
+a{  color: var(--colortext1);
+    text-decoration: underline;
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;}
+ul{
+    margin-left: -25px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+.parties{
+    display: flex;
+}
+
+.top{
+    background-color: var(--colorbackround2);
+    padding: 30px;
+    padding-top: 20px;
+    color: var(--colortext2);
+    border-radius: 10px; 
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease, background-color 0.3s ease;
+    
+}
+.contenu2{
+    background-color:var(--colorbackround2);
+    padding: 30px;
+    padding-top: 20px;
+    color: var(--colortext2);
+    border-radius: 10px;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease, background-color 0.3s ease;
+    
+}
+.experience{
+    color: var(--colortext1);
+    transition: transform 0.3s ease, background-color 0.3s ease;
+}
+
+
+    
+
+.contenu:hover,.contenu2:hover,.top:hover,#photo-profil:hover,.experience:hover {
+    transform: scale(1.02);
+    
+}
+    
