@@ -9,7 +9,7 @@
   rgb(250, 245, 230) ;
   }
 body {
-    background-image: url("../img/patates.jpg"); 
+    background-image: url("./patates.jpg"); 
     background-size: cover; 
     background-attachment: fixed; 
     background-color: var(--colorbackround1); 
